@@ -26,14 +26,14 @@ include $(DEVKITARM)/3ds_rules
 #     - icon.png
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
-APP_TITLE				:=	Mirag3D
+APP_TITLE	:=	Mirag3D
 APP_DESCRIPTION	:= 	Hello World & Different algorithms for fun
-APP_AUTHOR			:= 	Glitch
-TARGET					:=	$(notdir $(CURDIR))
-BUILD						:=	build
-SOURCES					:=	source
-DATA						:=	data
-INCLUDES				:=	include
+APP_AUTHOR	:= 	Glitch
+TARGET		:=	$(notdir $(CURDIR))
+BUILD		:=	build
+SOURCES		:=	source
+DATA		:=	data
+INCLUDES	:=	include
 
 #---------------------------------------------------------------------------------
 # options for code generation
